@@ -1,0 +1,48 @@
+body{
+    background-color: #4B4376;
+}
+
+
+
+.portfol{
+    border:none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: larger; 
+    text-align: center;
+    background-color: #432E54;
+    border-style:solid;
+    border-radius: 5px; 
+    width: 1000px;
+    height: 50px;
+    margin-left:765px;
+    border-radius: 2%;
+    margin-bottom: 25px;
+}
+
+#Vardas{
+    text-align: center;
+    border-style:solid;
+    border-radius: 5px; 
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    background-color: #432E54;
+    border-radius: 2%;
+}
+
+
+#skritulys{
+    text-align: center;
+    align-content: center;
+    border-color:black ;
+    border-style: solid;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    display: inline-block;
+    margin-left: -690px;
+}
+
+
