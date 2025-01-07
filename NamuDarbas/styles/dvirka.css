@@ -1,0 +1,16 @@
+body {
+    color: yellowgreen;
+    background-color: gray;
+    background-image: url(https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2016/11/x_ROO1950.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: darkolivegreen;
+    text-align: center;
+}
+
+h3{
+    color: darkslategray;
+    text-align: center;
+}

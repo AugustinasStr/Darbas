@@ -1,0 +1,18 @@
+body{
+    color: yellowgreen;
+    background-color: gray;
+    background-image: url(https://img.freepik.com/premium-photo/boxing-gloves-isolated-dark-background_636537-255346.jpg);
+    background-size: cover;
+}
+
+
+h1{
+
+    color: red;
+    text-align: center;
+}
+
+h3{
+    color: yellow;
+    text-align: center;
+}

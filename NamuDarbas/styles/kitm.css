@@ -1,0 +1,17 @@
+body{
+    color: yellowgreen;
+    background-color: gray;
+    background-image: url(https://kitm.lt/sites/default/files/2023-03/web%2027-17_0.jpg);
+    background-size: cover;
+}
+
+
+h1{
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
