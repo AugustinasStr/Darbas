@@ -1,0 +1,58 @@
+body {
+    background-color: #405D72;
+    font-family: Arial, sans-serif;
+}
+
+
+.out {
+    height: auto;
+    width: 1500px;
+    background-color: #758694;
+    margin: auto;
+
+}
+
+
+div {
+    flex: auto;
+    margin: 1%;
+    background-color: #F7E7DC;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    width: 1000px;
+    height: auto;
+    gap: 20px;
+    box-shadow: 5px 5px 15px;
+
+}
+
+p {
+    font-weight: bolder;
+}
+
+
+#start {
+    text-align: center;
+}
+
+
+.code {
+    width: 450px;
+
+
+}
+
+#body {
+    width: 400px;
+}
+
+
+.ir {
+    width: 300px;
+}
+
+
+.cod {
+    width: 250px;
+}

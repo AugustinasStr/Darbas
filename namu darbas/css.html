@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <h1 id="start"><a href="index.html">HTML</a> ir CSS</h1>
+
+    <div class="out">
+        <center>
+            <h1>CSS</h1>
+        </center>
+        <p id="start">(begginer)</p>
+        <p>CSS yra kalba, kurią naudojame HTML dokumento stiliui kurti.</p>
+        <p>CSS aprašo, kaip turi būti rodomi HTML elementai.</p>
+
+        <h1>CSS pražia</h1>
+        <p>Kad pradėti naudotis css iš pirmo reikia prašyti elementą kuri norite styliuoti.
+            Klasės rašosi su "." pries elementa o id su "#"</p>
+        <div class="code">
+            <pre id="aiskint"><code class="language-html">
+        #id{(Styliavimas ra&scaron;omas čia)
+        }
+        .klase{(Styliavimas ra&scaron;omas čia)
+        }
+        body{(Styliavimas ra&scaron;omas čia)
+        }
+    </code></pre>
+        </div>
+
+        <p>Stiliai visalaika rašomi''{cia}'' ir baigiant vienai eilutei turite uždėti ";" kad galėtumete toliau
+            pritaikyti stilių.</p>
+        <h1>"Body" CSS </h1>
+        <div id="body">
+            <pre id="aiskint"><code class="language-html">
+    body{
+        background-color: #0E2954;
+        font-family: Arial, sans-serif;
+    }
+    _________________________________________________
+    
+    body {
+        background-image: url('Fotkes URL');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: Arial, sans-serif;
+    }   
+</code></pre>
+        </div>
+        <ul>
+            <li>
+                <p> background-image: url('Nuotraukos URL'); - Nuotraukos URL paversta i fona .</p>
+            </li>
+            <li>
+                <p> background-size: cover; - Fono dydis "cover" reškia kad 1 nuotrauka užimtu visa fona.</p>
+            </li>
+            <li>
+                <p> background-position: center; - Fono posicija centras. </p>
+            </li>
+            <li>
+                <p> background-repeat: no-repeat; - Kad fono nuotrauka kartotunis/nesikartotu.</p>
+            </li>
+            <li>
+                <p> font-family: Arial, sans-serif; - Raidžių šriftas.</p>
+            </li>
+        </ul>
+
+        <h1>"p" ir "h1" CSS</h1>
+        <div class="ir">
+            <pre id="aiskint"><code class="language-html">
+    h1 {
+        text-align: left;
+        flex: 1;
+    }
+    p{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    }
+   
+</code></pre>
+        </div>
+
+        <ul>
+            <li>
+                <p>text-align: left; - Išlygina texta i kaire</p>
+            </li>
+            <li>
+                <p> flex: 1 - Padeda sukurt sudėtingus dizainus ir išdėstymus, kurie puikiai prisitaiko prie skirtingų ekranų dydžių. </p>
+            <li>
+                <p>text-align: center - išlygina texta į centra</p>
+            </li>
+            <li>
+                <p>font-weight: bolder - Padaro teksta stanbesni</p>
+            </li>
+            <li>
+                <p>letter-spacing: 5px -Tarp raidžių padaro 5pixeliu tarpa</p>
+            </li>
+        </ul>
+
+        <h1>Border CSS</h1>
+        <div class="code">
+            <pre id="aiskint"><code class="language-html">
+    #border{
+        background-color: red;
+        border-radius: 10%;
+        border-style: solid;
+        border-width: 5px;
+        width: 550px;
+        height: 150px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+</code></pre>
+        </div>
+
+        <ul>
+            <li>
+                <p>#border; - id pavadinta "border"</p>
+            </li>
+            <li>
+                <p>background-color: red; - fono spalva raudona</p>
+            </li>
+            <li>
+                <p>border-radius: 10%; - apibrežia kampų spinduli </p>
+            </li>
+            <li>
+                <p>border-style: solid; - Parenka borderio stiliu</p>
+            </li>
+            <li>
+                <p>border-width: 5px; - borderio linijos plotis</p>
+            </li>
+            <li>
+                <p>width: 550px; - Plotis</p>
+            </li>
+            <li>
+                <p>height: 150px; - Aukštis</p>
+            </li>
+            <li>
+                <p> box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); - Padaro šešeli aplink borderi</p>
+            </li>
+        </ul>
+        <h1>Naudinga CSS</h1>
+
+        <div class="cod">
+            <pre id="aiskint"><code class="language-html">
+       .border{
+       padding: 20px;
+       margin: auto;
+       gap: 40px;
+      }      
+
+</code></pre>
+        </div>
+        <ul>
+            <li>
+                <p>padding: 20px; - Tarpas 20px nuo kraštinės</p>
+            </li>
+            <li>
+                <p>margin: auto; - Apskaiciuoja kur padėti borderi</p>
+            </li>
+            <li>
+                <p>gap: 40px; - Tarpas tarp eilučiu ir stulpeliu 40px</p>
+            </li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

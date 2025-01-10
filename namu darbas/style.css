@@ -1,0 +1,87 @@
+body{
+    background-color: #405D72;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+p{
+font-weight: bolder;
+}
+
+.out{
+    height: auto;
+    width: 1500px;
+    background-color: #758694;
+    margin: auto;
+    
+}
+
+div{
+    flex: auto;
+    margin: 1%;
+    background-color: #F7E7DC;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    width: 1000px;
+    height: auto;
+    gap: 20px;
+    box-shadow: 5px 5px 15px;
+
+}
+
+
+.codea{
+    flex: auto;
+    margin: 2%;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    width: 1000px;
+    height: auto;
+    gap: 20px;
+    box-shadow: 5px 5px 15px;
+}
+
+
+
+#start{
+    text-align: center;
+    margin: auto;
+}
+
+#start2{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+#aiskint{
+    font-weight: bolder ;
+    text-align: left;
+    font-size: larger;
+    margin: 2%;
+}
+
+#trumpai{
+    font-weight: bolder;
+    text-align: left;
+    margin: 2%;
+}
+
+.pirm{
+    width: 700px;
+}
+
+.antr{
+    width: 300px;
+}
+
+
+.trec{
+    width: 1000px;
+}
+
