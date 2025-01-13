@@ -1,0 +1,87 @@
+body{
+    background-color: #39311D;
+}
+
+
+.main{
+    text-align: center;
+}
+
+
+p{
+    font-weight: bolder;
+}
+
+
+#bigbox{
+    border-style: solid;
+    height: 1000px;
+    width: 2500px;
+    background-color: #7E7474;
+    margin-left: 22px;
+}
+ /*Aplink borderis virsui*/
+
+#news1img{
+    height:150px;
+    
+}
+#news1{
+    margin-left: 520px;
+}
+#smallbox{
+    border-style: solid;
+    margin-left: 20px;
+    width: 1200px;
+    background-color: #C4B6B6;
+}
+
+ /*pirmas virsui*/
+
+
+#smallbox2{
+    border-style: solid;
+    margin-left: 20px;
+    height: 200px;
+    width: 1200px;
+    background-color: #C4B6B6;
+}
+
+
+#news2{
+    margin-top: 40px;
+    margin-left: 520px;
+}
+
+#news2img{
+    height: 150px;
+    width: 250px;
+    float: left;
+}
+
+
+ /*antras virsui*/
+
+
+#news3{
+    margin-left: 520px;
+}
+
+#smallbox3{
+    border-style: solid;
+    margin-left: 20px;
+    height: 225px;
+    width: 1200px;
+    background-color: #C4B6B6;
+}
+
+#news3img{
+    height: 150px;
+    width: 200px;
+    
+}
+
+
+ /*trecias virsui*/
+
+
