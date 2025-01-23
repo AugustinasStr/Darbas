@@ -87,8 +87,16 @@ a:hover {
 .smallnewspng{
     height:  150px;
     width: 125px;
+    margin-bottom: 20px;
+    margin-top: 25px;
 }
 
+.smallnewspng2 {
+    height:  150px;
+    width: 125px;
+    margin-bottom: 25px;
+    margin-top: 65px;
+}
 
 .invis {
     display: flex;
