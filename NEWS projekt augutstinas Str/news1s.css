@@ -1,16 +1,31 @@
-body{
-    background-color: #FFE8DF;
+body {
+
     font-family: Arial, sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/338/700/non_2x/blue-cyber-circuit-future-technology-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
 }
 
-h1{
+h1 {
+    text-align: center;
+}
+
+p {
+    font-weight: bolder;
+}
+
+
+.date {
     text-align: center;
 }
 
 
 
-div{
-    background-color: #F0F0F0;
+div {
+    background-color: rgb(55, 80, 104);
     margin: auto;
     text-align: center;
     border-style: solid;
@@ -19,9 +34,19 @@ div{
 }
 
 
-img{
+img {
     height: 200px;
 }
 
 
+button {
+    transition-duration: 0.4s;
+    background-color: blue;
+    text-decoration: none;
 
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
