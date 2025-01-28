@@ -1,12 +1,16 @@
-
 body {
-    background-color: #FFE8DF;
+    
     font-family: Arial, sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/338/700/non_2x/blue-cyber-circuit-future-technology-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+
 }
 
 #main {
     text-align: center;
-    color: #fff;
     margin: 20px 0;
     font-size: 24px;
 }
@@ -16,7 +20,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #FFFFFF;
+    background-color: rgb(95, 134, 134);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +38,7 @@ body {
     width: 30%;
     text-align: center;
     font-weight: bold;
-    background-color: #F0F0F0;
+    background-color: rgb(64, 79, 94);
     color: #000;
     padding-top: 20px;
     transition: all 0.3s ease;
@@ -55,7 +59,7 @@ body {
 .mazaskubas {
     border: 2px solid black;
     width: 15%;
-    background-color: #F0F0F0;
+    background-color: rgb(55, 80, 104);
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -70,7 +74,7 @@ body {
 
 
 .mazaskubas:hover h1 {
-    color: blue; 
+    color: black; 
     transition: color 0.3s ease;
 }
 
@@ -79,7 +83,7 @@ a {
 }
 
 a:hover {
-    color: blue; 
+    color: white; 
 }
 
 
