@@ -1,0 +1,54 @@
+
+body {
+    background-image:url(back.jpg);
+    background-size: fill;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+
+
+img{
+    height: 400px;
+    width: 700px;
+
+   
+}
+
+
+img:hover{
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.5);
+}
+#LOGO{
+    height: 200px;
+    width: 500px;
+}
+
+
+.gamebox{
+    border: 5px solid black;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}   
+
+
+header {
+    background-color: rgb(0, 89, 255);
+    padding: 60px;
+    font-size: 55px;
+    text-align: center;
+}
+
+h1{
+    color: aqua;
+}
+
+p{
+    font-weight: bolder;
+}
+
+a {
+    font-size: 50%;
+}
