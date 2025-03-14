@@ -5,6 +5,17 @@ body {
     background-repeat: no-repeat; 
 }
 
+p{
+  font-weight: bold;
+  color: black;
+}
+
+
+h2{
+  color: black;
+}
+
+
 
 
 .pasirinkt {
@@ -40,6 +51,7 @@ body {
   
 
 #Projekt {
+  
 
     position: relative;
     text-align: center;
@@ -50,9 +62,28 @@ body {
     margin: auto;
     background-color: #432E54;
     border-radius: 2%;
+    color: black;
 }
 
 
 p{
   font-weight: bold;
+}
+
+#karusele{
+  width: 450px;
+  margin: auto;
+}
+
+
+#viskas {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
 }
