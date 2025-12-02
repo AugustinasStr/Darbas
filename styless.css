@@ -1,0 +1,160 @@
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+    color: #ddd;
+
+}
+
+
+#navas {
+    background: #819438;
+    padding: 0 40px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navoKaire {
+    display: flex;
+    height: 100%;
+    margin-left: 745px;
+}
+
+#navoKaire a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 22px;
+    display: flex;
+    align-items: center;
+}
+
+#navoKaire a:hover {
+    background: black;
+    color: #bcd45a;
+}
+
+
+#searchas input {
+    padding: 6px 10px;
+    border: none;
+    height: 32px;
+    width: 170px;
+}
+
+#searchas button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    height: 32px;
+    cursor: pointer;
+}
+
+
+
+#visas {
+    display: flex;
+    width: 960px;
+    margin: 30px auto;
+    align-items: flex-start;
+}
+
+.main {
+    width: 630px;
+}
+
+
+.didelis {
+    width: 630px;
+    height: 325px;
+    border: 5px solid #7c8641;
+    object-fit: cover;
+}
+
+#paraste {
+    font-size: 15px;
+    margin: 15px 0 5px;
+    color: #ddd;
+}
+
+#parasteMaza {
+    font-size: 13px;
+    color: #c5d688;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+
+
+#eile {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eilesDezute {
+    width: 200px;
+}
+
+.eilesDezute img {
+    width: 200px;
+    height: 120px;
+    border: 5px solid #7c8641;
+    object-fit: cover;
+}
+
+.textas {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.textasMazas {
+    font-size: 12px;
+    color: #cabfa7;
+    line-height: 1.3;
+}
+
+.daugiau {
+    color: #a4c545;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+
+.sonoBaras { 
+    width: 300px;
+    margin-left: 30px;
+}
+
+.sonoKorta {
+    padding-bottom: 18px;
+    margin-bottom: 22px;
+    border-bottom: 2px solid #666;
+}
+
+
+.sonoKorta img {
+    float: left;
+    width: 140px;
+    height: 90px;
+    margin:  12px 8px ;
+    border: 4px solid #7c8641;
+    object-fit: cover;
+}
+
+.sonoKorta h3 {
+    margin: 0 0 5px 0;
+    font-size: 15px;
+    color: #b2d635;
+}
+
+.sonoKorta p {
+    font-size: 12px;
+    line-height: 1.35;
+    color: #cabfa7;
+}
+
