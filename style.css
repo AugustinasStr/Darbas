@@ -1,0 +1,26 @@
+.hero-section {
+  background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80);  
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 20px;
+}
+
+.carousel-foto {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.main-content {
+  background-color: white;
+  padding: 20px;
+}
